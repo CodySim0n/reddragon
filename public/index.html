@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Red Dragon</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+        $("#kungnav").click(function(){
+           $("#kungnav").addClass("text-danger");
+           $("#tainav").removeClass("text-danger");
+           $("#selfnav").removeClass("text-danger");
+           $("#weapnav").removeClass("text-danger");
+           $("#schnav").removeClass("text-danger");
+           $("#bionav").removeClass("text-danger");
+           $("#vidnav").removeClass("text-danger");
+        });
+        $("#tainav").click(function(){
+           $("#tainav").addClass("text-danger");
+           $("#kungnav").removeClass("text-danger");
+           $("#selfnav").removeClass("text-danger");
+           $("#weapnav").removeClass("text-danger");
+           $("#schnav").removeClass("text-danger");
+           $("#bionav").removeClass("text-danger");
+           $("#vidnav").removeClass("text-danger");
+        });
+        $("#selfnav").click(function(){
+           $("#kungnav").removeClass("text-danger");
+           $("#tainav").removeClass("text-danger");
+           $("#selfnav").addClass("text-danger");
+           $("#weapnav").removeClass("text-danger");
+           $("#schnav").removeClass("text-danger");
+           $("#bionav").removeClass("text-danger");
+           $("#vidnav").removeClass("text-danger");
+        });
+        $("#weapnav").click(function(){
+           $("#kungnav").removeClass("text-danger");
+           $("#tainav").removeClass("text-danger");
+           $("#selfnav").removeClass("text-danger");
+           $("#weapnav").addClass("text-danger");
+           $("#schnav").removeClass("text-danger");
+           $("#bionav").removeClass("text-danger");
+           $("#vidnav").removeClass("text-danger");
+        });
+        $("#schnav").click(function(){
+           $("#kungnav").removeClass("text-danger");
+           $("#tainav").removeClass("text-danger");
+           $("#selfnav").removeClass("text-danger");
+           $("#weapnav").removeClass("text-danger");
+           $("#schnav").addClass("text-danger");
+           $("#bionav").removeClass("text-danger");
+           $("#vidnav").removeClass("text-danger");
+        });
+        $("#bionav").click(function(){
+           $("#kungnav").removeClass("text-danger");
+           $("#tainav").removeClass("text-danger");
+           $("#selfnav").removeClass("text-danger");
+           $("#weapnav").removeClass("text-danger");
+           $("#schnav").removeClass("text-danger");
+           $("#bionav").addClass("text-danger");
+           $("#vidnav").removeClass("text-danger");
+        });
+        $("#vidnav").click(function(){
+           $("#kungnav").removeClass("text-danger");
+           $("#tainav").removeClass("text-danger");
+           $("#selfnav").removeClass("text-danger");
+           $("#weapnav").removeClass("text-danger");
+           $("#schnav").removeClass("text-danger");
+           $("#bionav").removeClass("text-danger");
+           $("#vidnav").addClass("text-danger");
+        });
+    });
+
+  
+  </script>
+</head>
+<body>
+  <!-- header section-->
+  <div style="background:transparent !important" class="jumbotron text-center">
+    <h1 class="text-danger">Red Dragon</h1>
+    <h3>Dojo</h3>
+  </div>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light py-lg-4 navbar-fixed-top sticky" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Red Dragon</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-danger"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item px-lg-4">
+                <a id="kungnav" class="nav-link text-uppercase text-expanded text-danger" href="#kungcontent">Kung Fu</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a id="tainav" class="nav-link text-uppercase text-expanded" href="#taicontent">Tai Chi</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a id="selfnav" class="nav-link text-uppercase text-expanded" href="#selfcontent">Self Defense</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a id="weapnav" class="nav-link text-uppercase text-expanded" href="#weapcontent">Weapons</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a id="schnav" class="nav-link text-uppercase text-expanded" href="#schcontent">Schedule</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a id="bionav" class="nav-link text-uppercase text-expanded" href="#biocontent">Instructor</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a id="vidnav" class="nav-link text-uppercase text-expanded" href="#vidcontent">Videos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+
+  </div>
+  <section id="kungcontent" class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Kung Fu</span>
+            <!-- <span class="section-heading-lower">Worth Drinking</span> -->
+          </h2>
+          <p class="mb-3">This area on concentration focuses on all of the techniques a student will learn in order to be an avid martial artist.  Striking, kicking, jumping, rolling, dodging, blocking, and maneuvering with ease are just a few of the skills one acquires when learning Kung Fu.  Kata is the main vessel in which a student learns Kung Fu, and can be a rigorous and intensive workout regimen. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="taicontent" class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Tai Chi</span>
+            <!-- <span class="section-heading-lower">Worth Drinking</span> -->
+          </h2>
+          <p class="mb-3">Short hand for "Tai Chi Chuan", which translates to "Supreme Ultimate Fist".  Tai Chi is the gentle art of cultivating one's "chi", or "internal energy".  Here, the student learns how to focus and cultivate the innate force which thrives within all of us.  Soft, gentle movements are first taught, and once mastered, are then transformed into external combat techniques.  Practicing Tai Chi as a compliment to the hard, fast styles of Kung Fu builds a well-balanced and extremely capable martial artist.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="selfcontent" class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Self Defense</span>
+            <!-- <span class="section-heading-lower">Worth Drinking</span> -->
+          </h2>
+          <p class="mb-3"> In this area of concentration, Sensei Chris works to build a translation between Kung Fu and actual "street applicable" combat scenarios.  Every modern confrontation is covered including weapons defense and multiple attackers at the advanced stage.  Training in self defense allows one to use the techniques learned in a practical way to save one's life or the life of loved one's in an aggressive situation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="weapcontent" class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Weapons Training</span>
+            <!-- <span class="section-heading-lower">Worth Drinking</span> -->
+          </h2>
+          <p class="mb-3">Sensei Chris teaches five weapons in the Red Dragon Martial Art System:  the nunchucks, katana ( traditional single-bladed sword popularized by the samurai of feudal Japan ), the bo staff, escrima sticks, and the Chinese Long Sword ( traditional double-bladed Tai Chi sword ).  Each student will learn three to five weapons during their martial art career at the Red Dragon Dojo.  Weapons training not only serves to build strength, hand-eye coordination, and speed, but also creates a well-rounded martial artist, combining empty-handed combat with weapons applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="schcontent" class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Schedule</span>
+            <!-- <span class="section-heading-lower">Worth Drinking</span> -->
+          </h2>
+          <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="biocontent" class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Biography of Sensei Christopher DiNatale
+            </span>
+            <!-- <span class="section-heading-lower">Worth Drinking</span> -->
+          </h2>
+          <p class="mb-3">Sensei Christopher DiNatale was born in Philadelphia, Pennsylvania during the year of the dragon, 1976.  At the age of 19, Sensei Chris moved to New Orleans, Louisiana to live with his twin brother, Anthony, who was attending Tulane Univeristy for his undergraduate studies.  During this time, Sensei Chris met his first martial arts instructor, Sifu Rick Gil, who was teaching the Lee Kune Do Martial Arts System in the New Orleans area.  Sensei Chris befriended Sifu Rick Gil and became his student.  For five years following, they trained together, where Sensei Chris was awarded the Lee Kune Do Instructor's Certification and Black Belt Rank.  He aided Sifu Rick Gil in teaching classes at the Lee Kune Do Dojo and immersed himself in the martial arts culture of New Orleans.  
+
+            After attaining his Instructor's Black Belt in the Lee Kune Do Martial Arts System, Sensei Chris trained with numerous high-ranking martial artists in the area and sought out more information relating to Kung Fu and self-defense.  In the summer of 2003, Sensei Chris combined all of his working knowledge in the martial arts and developed the Red Dragon Martial Art System, a daughter system of Lee Kune Do.  He wanted Red Dragon Martial Arts to focus on practical combative situations for the 21st century practitioner combined with disciplined training that focused on the betterment of oneself.
+            
+            The Red Dragon Dojo was born and Sensei Chris opened the doors of his first martial arts studio in August of 2003 in New Orleans, Louisiana with the intent to teach all those wanting martial knowledge, especially the practical and applicable style of traditional eastern combative arts.  Today, the Red Dragon Dojo thrives in Harahan, Louisiana and sports 70+ students.  Sensei Chris is eternally grateful to all of his students as well as his instructor, Sifu Rick Gil, who not only taught him the way of martial combat, but ignited the desire to become better than he is.            
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <!-- footer section -->
+  <footer class="navbar navbar-default navbar-fixed-bottom"></footer>
+
+  
+</body>
+</html>

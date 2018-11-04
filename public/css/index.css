@@ -1,0 +1,8 @@
+.sticky {
+    position: sticky;
+    top: 5px; /* When the element reaches top: 10px, it becomes fixed. */
+    z-index: 100;
+  }
+  .navbar{
+    background-color: white;
+  } 
